@@ -6,3 +6,9 @@ What is most significant bit (MSB)?
 The most significant bit (MSB) is the bit in a multiple-bit binary number with the largest value. This is usually the bit farthest to the left, or the bit transmitted first in a sequence. For example, in the binary number 1000, the MSB is 1, and in the binary number 0111, the MSB is 0.
 
 
+
+
+comments:
+
+#Need to Understand at a fundamental level how computers work, 
+
