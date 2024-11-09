@@ -12,7 +12,7 @@
 |                                |           |              |
 | SOAP                           | WEB       | Didn't Start |
 | Forbidden Paths                | WEB       | Didn't Start |
-| cookies                        | WEB       | Finished  &#x2611 |
+| cookies                        | WEB       | Finished  :&#x2611: |
 |                                |           |              |
 | C3                             | Crypto    | Didn't Start |
 | Custom Encryption              | Crypto    | Didn't Start |
