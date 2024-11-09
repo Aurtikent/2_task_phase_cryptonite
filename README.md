@@ -12,7 +12,7 @@
 |                                |           |              |
 | SOAP                           | WEB       | Didn't Start |
 | Forbidden Paths                | WEB       | Didn't Start |
-| cookies                        | WEB       | Finished  :&#x2611: |
+| cookies                        | WEB       | Finished ✅  |
 |                                |           |              |
 | C3                             | Crypto    | Didn't Start |
 | Custom Encryption              | Crypto    | Didn't Start |
@@ -21,5 +21,4 @@
 | Buffer Overflow0               | Binex     | Didn't Start |
 | Format String0                 | Binex     | Didn't Start |
 | Flag Leak                      | Binex     | Didn't Start |
-
 
