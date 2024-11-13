@@ -2,23 +2,23 @@
 
 | ChallengeName                  | Category  | Status       |
 |:------------------------------:|:---------:|:------------:|
-| GDB baby step 1                | RE        | Didn't Start |
+| GDB baby step 1                | RE        | Finished ✅ |
 | ARMsssembly 1                  | RE        | Didn't Start |
 | Vault door 3                   | RE        | Didn't Start |
 |                                |           |              |
-| Trivial Flag Transfer Protocol | Forensics | Didn't Start |
+| Trivial Flag Transfer Protocol | Forensics | Finished ✅  |
 | tunn3l v1s10n                  | Forensics | Didn't Start |
-| m00nwalk                       | Forensics | Didn't Start |
+| m00nwalk                       | Forensics | Doing ??     |
 |                                |           |              |
 | SOAP                           | WEB       | Didn't Start |
-| Forbidden Paths                | WEB       | Didn't Start |
+| Forbidden Paths                | WEB       | Finished ✅  |
 | cookies                        | WEB       | Finished ✅  |
 |                                |           |              |
-| C3                             | Crypto    | Didn't Start |
+| C3                             | Crypto    | Finished ✅ |
 | Custom Encryption              | Crypto    | Didn't Start |
 | miniRSA                        | Crypto    | Didn't Start |
 |                                |           |              |
-| Buffer Overflow0               | Binex     | Didn't Start |
+| Buffer Overflow0               | Binex     | doing ?? |
 | Format String0                 | Binex     | Didn't Start |
 | Flag Leak                      | Binex     | Didn't Start |
 
