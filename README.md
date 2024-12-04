@@ -3,7 +3,7 @@
 | ChallengeName                  | Category  | Status       |
 |:------------------------------:|:---------:|:------------:|
 | GDB baby step 1                | RE        | Finished ✅ |
-| ARMsssembly 1                  | RE        | Didn't Start |
+| ARMsssembly 1                  | RE        | Finished ✅ |
 | Vault door 3                   | RE        | Didn't Start |
 |                                |           |              |
 | Trivial Flag Transfer Protocol | Forensics | Finished ✅  |
