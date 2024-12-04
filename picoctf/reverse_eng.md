@@ -41,7 +41,9 @@ How you approached the challenge:
 - There could have been 2 main approches to solving this problem,
    - Reverse Engineer the assmebly,
 
-   - Compile and run the assembly like a regular program, we are going to take the latter, because of our unfamiliarity with assembly. 
+   - Compile and run the assembly like a regular program, 
+
+we are going to take the latter, because of our unfamiliarity with assembly. 
 
 So reading the file, we have some key pieces of infomation:
 
@@ -82,7 +84,7 @@ What you learned through solving this challenge:
 Other incorrect methods you tried:
 
 - Tried to read the assembly 💀💀
-- spent quite a few hours trying to compile the assmebly, (the world of compilers is vast)
+- spent quite a few hours trying to compile the assembly, (the world of compilers is vast)
 
 References:
 

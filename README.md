@@ -14,8 +14,8 @@
 | Forbidden Paths                | WEB       | Finished ✅  |
 | cookies                        | WEB       | Finished ✅  |
 |                                |           |              |
-| C3                             | Crypto    | Finished ✅ |
-| Custom Encryption              | Crypto    | Didn't Start |
+| C3                             | Crypto    | Finished ✅  |
+| Custom Encryption              | Crypto    | Finished ✅  |
 | miniRSA                        | Crypto    | Didn't Start |
 |                                |           |              |
 | Buffer Overflow0               | Binex     | doing ?? |
