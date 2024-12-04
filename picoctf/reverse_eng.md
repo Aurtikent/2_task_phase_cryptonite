@@ -39,9 +39,9 @@ References
 How you approached the challenge:
 
 - There could have been 2 main approches to solving this problem,
-    > Reverse Engineer the assmebly 
-    > Compile and run the assembly like a regular program,
-we are going to take the latter, because of our unfamiliarity with assembly. 
+   - Reverse Engineer the assmebly,
+
+   - Compile and run the assembly like a regular program, we are going to take the latter, because of our unfamiliarity with assembly. 
 
 So reading the file, we have some key pieces of infomation:
 
