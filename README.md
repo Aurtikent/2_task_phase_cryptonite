@@ -2,15 +2,15 @@
 
 | ChallengeName                  | Category  | Status       |
 |:------------------------------:|:---------:|:------------:|
-| GDB baby step 1                | RE        | Finished ✅ |
-| ARMsssembly 1                  | RE        | Finished ✅ |
+| GDB baby step 1                | RE        | Finished ✅  |
+| ARMsssembly 1                  | RE        | Finished ✅  |
 | Vault door 3                   | RE        | Didn't Start |
 |                                |           |              |
 | Trivial Flag Transfer Protocol | Forensics | Finished ✅  |
 | tunn3l v1s10n                  | Forensics | Didn't Start |
 | m00nwalk                       | Forensics | Doing ??     |
 |                                |           |              |
-| SOAP                           | WEB       | Didn't Start |
+| SOAP                           | WEB       | Finished ✅  |
 | Forbidden Paths                | WEB       | Finished ✅  |
 | cookies                        | WEB       | Finished ✅  |
 |                                |           |              |
