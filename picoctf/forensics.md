@@ -82,13 +82,13 @@ changing it to `28 00` we get image,
 
 - so looks like we are on the right path, but this is unfortunately not the flag. 
 
--analysing the header further we see that at the address `0A` specifies the total header length which as said sould be 54 or 0x36 in hex.
+- analysing the header further we see that at the address `0A` specifies the total header length which as said sould be 54 or 0x36 in hex.
 
 - Since the complete image is not visible we need to change width and or height to view the complete image, 
 
 changing the values the look like the following in the hex editor
 
-![final_Hex_editor]](./assets/final_hex_EDITOR.png)
+![final_Hex_editor](./assets/final_hex_EDITOR.png)
 
 saving the image as a bmp and viewing it in any image editor we get the following image, 
 ![Final_Flag_image](./assets/tunnel5.bmp)
