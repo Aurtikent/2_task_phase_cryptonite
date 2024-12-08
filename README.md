@@ -16,7 +16,7 @@
 |                                |           |              |
 | C3                             | Crypto    | Finished ✅  |
 | Custom Encryption              | Crypto    | Finished ✅  |
-| miniRSA                        | Crypto    | Didn't Start |
+| miniRSA                        | Crypto    | Finished ✅  |
 |                                |           |              |
 | Buffer Overflow0               | Binex     | doing ?? |
 | Format String0                 | Binex     | Didn't Start |

@@ -170,6 +170,97 @@ References
 - https://www.w3schools.com/python/python_operators.asp
 - https://stackoverflow.com/questions/26301495/how-to-reverse-operation-in-python
 
+--- 
+
+# miniRSA
+
+**Flag:** `picoCTF{n33d_a_lArg3r_e_ccaa7776}`
+
+This Challenge is based on trying to Reverse RSA 
+
+- RSA is based on public key cryptography there is a public key and private key, 
+since the e value used here is very small we can brute force the text and get the flag, 
+
+```
+## GETTING THE VALUES FROM THE CIPHER FILE.
+
+n = 29331922499794985782735976045591164936683059380558950386560160105740343201513369939006307531165922708949619162698623675349030430859547825708994708321803705309459438099340427770580064400911431856656901982789948285309956111848686906152664473350940486507451771223435835260168971210087470894448460745593956840586530527915802541450092946574694809584880896601317519794442862977471129319781313161842056501715040555964011899589002863730868679527184420789010551475067862907739054966183120621407246398518098981106431219207697870293412176440482900183550467375190239898455201170831410460483829448603477361305838743852756938687673
+
+e = 3
+
+c = 2205316413931134031074603746928247799030155221252519872650073010782049179856976080512716237308882294226369300412719995904064931819531456392957957122459640736424089744772221933500860936331459280832211445548332429338572369823704784625368933
+
+# copied from stack overflow
+def nth_root(x, n):
+
+    # Start with some reasonable bounds around the nth root.
+
+    upper_bound = 1
+
+    while upper_bound ** n <= x:
+
+        upper_bound *= 2
+    lower_bound = upper_bound // 2
+
+
+    # Keep searching for a better result as long as the bounds make sense.
+
+    while lower_bound < upper_bound:
+
+        mid = (lower_bound + upper_bound) // 2
+
+        mid_nth = mid ** n
+
+        if lower_bound < mid and mid_nth < x:
+
+            lower_bound = mid
+
+        elif upper_bound > mid and mid_nth > x:
+
+            upper_bound = mid
+
+        else:
+
+            # Found perfect nth root.
+
+            return mid
+
+    return mid + 1
+
+###########################3
+
+
+
+i = 0
+while True:    
+    
+    print(i)
+    unrooted = (n * i) + c
+    m = nth_root(unrooted, 3)
+    st = "{:x}".format(m)
+    if "7069636f" in st:
+        bytes_obj = bytes.fromhex(st)
+        print(bytes_obj.decode('utf-8'))
+        break
+    
+    i += 1
+    
+
+```
+
+THis will Print the flag, 
+
+
+What you learned through solving this challenge:
+
+1. RSA encryption
+2. Python programming for large numbers
+
+
+References
+
+- https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
 
 
 
