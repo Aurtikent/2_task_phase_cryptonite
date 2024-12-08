@@ -62,6 +62,7 @@ References
 # Challenge name
 
 **Flag:** `picoCTF{qu1t3_a_v13w_2020}`
+
 This was one the most tricky challenge, and required the knowledge of indepth information for the .bmp file format,
 
 - We are given a file with no information on how to get the flag wth it, analysing the file with `file` command will give meaningful information, 
@@ -106,3 +107,45 @@ References
 
 1. http://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/2003_w/misc/bmp_file_format/bmp_file_format.htm
 2. https://grapherhelp.goldensoftware.com/subsys/subsys_bitmap_file_description.htm
+
+
+# m00nwalk
+
+**Flag:** `picoCTF{beep_boop_im_in_space}`
+
+The m00nwalk challenge was an interesting one, it was a little out of the ordinary and i enjoyed solving this one, 
+
+Hints given in the challenge say `How did pictures from the moon landing get sent back to Earth?` research on google say that sstv format was used. 
+ 
+
+- Download the file and install program to decode the sstv audio file,
+we will use, `https://github.com/colaclanth/sstv` 
+
+
+- Download and install the program as prescribed on the page and use 
+```sstv -d message.wav -o result.png
+```
+
+- we get the following image which is the flag. 
+
+![ss_of_moonwalk_image](./assets/moonwalk.png)
+
+- the second hint indicates towards the scottie mode, but the program we are using automatically detects it so we do not really need it. 
+
+
+What you learned through solving this challenge:
+
+1. moon landings?
+2. Effectively googling things, 
+3. Trying out different approaches if one way does not work, ( i found the flag to m00nwalk2 as well in the process,)
+Other incorrect methods you tried:
+
+- Tried to decode it though morse code. 
+- Visualising the image thinking it might reveal something
+
+References
+
+- https://en.wikipedia.org/wiki/Apollo_11_missing_tapes (sstv)
+- https://github.com/colaclanth/sstv
+
+
