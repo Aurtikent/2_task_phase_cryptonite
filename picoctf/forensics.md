@@ -123,7 +123,9 @@ we will use, `https://github.com/colaclanth/sstv`
 
 
 - Download and install the program as prescribed on the page and use 
-``` sstv -d message.wav -o result.png
+``` 
+$ sstv -d message.wav -o result.png
+
 ```
 
 - we get the following image which is the flag. 
