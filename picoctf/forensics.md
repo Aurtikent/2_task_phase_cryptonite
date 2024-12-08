@@ -123,7 +123,7 @@ we will use, `https://github.com/colaclanth/sstv`
 
 
 - Download and install the program as prescribed on the page and use 
-```sstv -d message.wav -o result.png
+``` sstv -d message.wav -o result.png
 ```
 
 - we get the following image which is the flag. 
@@ -138,10 +138,11 @@ What you learned through solving this challenge:
 1. moon landings?
 2. Effectively googling things, 
 3. Trying out different approaches if one way does not work, ( i found the flag to m00nwalk2 as well in the process,)
+
 Other incorrect methods you tried:
 
 - Tried to decode it though morse code. 
-- Visualising the image thinking it might reveal something
+- Visualising the audio thinking it might reveal something
 
 References
 
