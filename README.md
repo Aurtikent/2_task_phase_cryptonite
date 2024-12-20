@@ -18,7 +18,7 @@
 | Custom Encryption              | Crypto    | Finished ✅  |
 | miniRSA                        | Crypto    | Finished ✅  |
 |                                |           |              |
-| Buffer Overflow0               | Binex     | doing ?? |
-| Format String0                 | Binex     | Didn't Start |
-| Flag Leak                      | Binex     | Didn't Start |
+| Buffer Overflow0               | Binex     | Finished ✅  |
+| Format String0                 | Binex     | Finished ✅  |
+| Flag Leak                      | Binex     | Doing,  |
 

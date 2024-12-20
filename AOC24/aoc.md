@@ -23,13 +23,13 @@
 
 ---
 
-#Day2
+# Day2
 - we have a Elastic SIEM Dashboard which is used for machine management and logging in large organisations.
 - as per given reports the activity occurred on Dec 1st, 2024, between 0900 and 0930
 - we get various events and by setting filters which can be used to build a complete overlook of what happend. 
 
 
-## QUestions:
+## Questions:
 
 
 What is the name of the account causing all the failed login attempts?
@@ -49,7 +49,7 @@ What is the decoded command executed by Glitch to fix the systems of Wareville?
 
 ---
 
-#Day3
+# Day3
 
 - 
 
