@@ -20,5 +20,5 @@
 |                                |           |              |
 | Buffer Overflow0               | Binex     | Finished ✅  |
 | Format String0                 | Binex     | Finished ✅  |
-| Flag Leak                      | Binex     | Doing,  |
+| Flag Leak                      | Binex     | Finished ✅  |
 
