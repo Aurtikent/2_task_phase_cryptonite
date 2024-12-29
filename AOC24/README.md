@@ -1,3 +1,3 @@
-THere are the write ups for AOC24
+There are the write ups for AOC24
 
 
