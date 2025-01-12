@@ -1,8 +1,10 @@
 # Day1
 
 - There is a yt2mp3 converter which gives us a download.zip
+
 - inside the zip there are 2 files `song.mp3`, `somg.mp3`
-- `somg.mp3` is a windows lnk (shortcut) file, the power shell command does some malicious things and refers a raw github ps script `https://raw.githubusercontent.com/MM-WarevilleTHM/IS/refs/heads/main/IS.ps1`
+
+- `somg.mp3` is a windows lnk (shortcut) file, the power shell command does some malicious things and refers a raw github ps script [](https://raw.githubusercontent.com/MM-WarevilleTHM/IS/refs/heads/main/IS.ps1)
 
 
 ## Questions: 
@@ -24,8 +26,11 @@
 ---
 
 # Day2
+
 - we have a Elastic SIEM Dashboard which is used for machine management and logging in large organisations.
+
 - as per given reports the activity occurred on Dec 1st, 2024, between 0900 and 0930
+
 - we get various events and by setting filters which can be used to build a complete overlook of what happend. 
 
 
@@ -52,7 +57,9 @@ What is the decoded command executed by Glitch to fix the systems of Wareville?
 # Day3
 
 - Use The ELK dashboard to find different parameters, shell uploaded in the the webapp
+
 - analysing the web app we see an open end point
+
 - exploit it and upload shell.php to give the flag, and several other questiosn 
 
 ## Questions
@@ -68,6 +75,7 @@ BLUE: What IP address accessed the web shell?
 
 
 RED: What is the contents of the flag.txt?
+
 `THM{Gl1tch_Was_H3r3}`
 
 ---
@@ -75,8 +83,11 @@ RED: What is the contents of the flag.txt?
 # Day4
 
 - learned about different atomic tests and why they are used, 
+
 - how to use the Atomic tests and read logs
+
 - these test run and detail how the system might be vulnerable, 
+
 - they can be used to set up rules in prevention / logging systems.
 
 
@@ -103,11 +114,13 @@ What is the flag found from this Atomic Test?
 # Day5 
 
 - This Basically Teaches us about xxe vulnerablity 
+
 - The xml parser can be vulnerable and read files on the system which can expose credetials, 
 
-## QUESTIONS
+## questions
 
 What is the flag discovered after navigating through the wishes?
+
 `THM{Brut3f0rc1n6_mY_w4y}`
 
 
@@ -119,11 +132,15 @@ What is the flag seen on the possible proof of sabotage?
 # Day6
 
 - Teaches us about various evasion Techniques used by threat actors
+
 - including encoding the payload to avoid detection, 
+
 - Using YARA: Another Recursive Acronym or Yet Another Ridiculous Acronym we define rules to have EDR
+
 - Use Floss to identify obsfucated strings in the malware bin, 
 
-## Question
+## Questions
+
 What is the flag displayed in the popup window after the EDR detects the malware?
 `THM{GlitchWasHere}`
 
@@ -299,5 +316,65 @@ What is the flag you receive after performing the risk assessment?
 
 # Day10
 
-- a macro refers to a set of programmed instructions designed to automate repetitive tasks
--
+- A macro refers to a set of programmed instructions designed to automate repetitive tasks
+- Microsoft Office has programmable macros, these can be exploited as well to gain access on a system, 
+- Use the `metasploit` framework to generate a malicious word docuemnt, 
+- The generated document can be emailed to a user which when opened gets us access to the machine,
+
+## questions 
+What is the flag value inside the flag.txt file that’s located on the Administrator’s desktop?
+`THM{PHISHING_CHRISTMAS}`
+
+---
+
+# Day11
+
+- WPA 4-way handshake is a process that helps a client device (like your phone or laptop) and a Wi-Fi router confirm they both have the right "password" or Pre-Shared Key (PSK)
+- The vulnerability lies in the fact that an attacker can capture this 4-way handshake if they’re listening when a device connects. With the handshake data, they can use it as a basis to attempt offline brute-force or dictionary attacks auri{Lemme_know_if
+- We will be using airodump to capture and then brute-force the Handshake using _y'all_actually_read_this} aircrack
+- we Can then sucessfully connect to the wifi network and then breach it, ;)
+
+!(day 11)[./assets/day11.png]
+
+## Questions 
+
+What is the BSSID of our wireless interface?
+`02:00:00:00:02:00`
+
+What is the SSID and BSSID of the access point? Format: SSID, BSSID
+`MalwareM_AP, 02:00:00:00:00:00`
+
+What is the BSSID of the wireless interface that is already connected to the access point?
+`02:00:00:00:01:00`
+
+What is the PSK after performing the WPA cracking attack?
+`fluffy/champ24`
+
+# Day12
+
+- This Day teaches us a little about Race conditions, 
+- simplified when multiple actions are done at the same time, and if the application is not well designed to handle them properly, there might be unexpected behaviour,
+- In This particular problem we have a race condition in a bank transaction where we can withdraw more money then we actaully have in the bank account, 
+
+!()[./assets/day12_1.png]
+
+## Questions 
+What is the flag value after transferring over $2000 from Glitch's account?
+`THM{WON_THE_RACE_007}`
+
+
+# Day13
+
+- When you use regular HTTP, your browser sends a request to the server, and the server responds, then closes the connection. If you need new data, you have to make another request
+- WebSockets handle things differently. Once the connection is established, it remains open, allowing the server to push updates to you whenever there’s something new.
+- 
+
+
+
+
+
+
+
+
+
+
