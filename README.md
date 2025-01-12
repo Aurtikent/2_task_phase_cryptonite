@@ -22,3 +22,4 @@
 | Format String0                 | Binex     | Finished ✅  |
 | Flag Leak                      | Binex     | Finished ✅  |
 
+![Pico_Ctf_progress](pico_ctf_progress.png)
